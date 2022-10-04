@@ -115,3 +115,341 @@
 
 
 }
+
+@media screen and (max-width:1200px) {
+    .header {
+        height: 107vh;
+        width: 100%;
+        background-image: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(220, 220, 228, 0) 0%, rgba(10, 10, 10, 0.5270483193277311) 0%), url(../img/netflex1.jpg);
+        background-position: top;
+        background-size: cover;
+
+    }
+
+    .text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .search-buttom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: -10rem;
+    }
+
+    .heading-tritury {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-size: 1.4rem;
+        letter-spacing: 3px;
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .heading-primary-main {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        margin: 0 auto;
+        padding: 0 5%;
+        font-size: 57px;
+        font-weight: 700;
+        margin: -34px;
+        max-width: 800px;
+        line-height: 74.5px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    .heading-primary-sub-1 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-weight: 300;
+        letter-spacing: 3px;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+        margin-top: -50px;
+        text-align: center;
+    }
+
+
+    .btn-email {
+        bottom: -8vh;
+        padding: 0.5rem 1.2rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--primary-color);
+        color: #f4f4f4;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        margin-right: 0.5rem;
+        outline: none;
+
+
+    }
+
+    .email {
+        bottom: -8vh;
+        width: 454px;
+        height: 3rem;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        margin-left: 5rem;
+    }
+
+    .logo-box {
+        padding: 0 20px;
+    }
+
+    .btn-log {
+        height: 10px;
+        width: auto;
+        background-color: #e50914;
+        font-size: 1.5rem;
+        line-height: normal;
+        color: white;
+        border-radius: 10%;
+        cursor: pointer;
+        padding: 20px 20px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        height: 107vh;
+        width: 100%;
+        background-image: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(220, 220, 228, 0) 0%, rgba(10, 10, 10, 0.5270483193277311) 0%), url(../img/netflex1.jpg);
+        background-position: top;
+        background-size: cover;
+
+    }
+
+    .text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .search-buttom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: -10rem;
+    }
+
+    .heading-tritury {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .heading-primary-main {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        padding: 0 5%;
+        font-size: 40px;
+        font-weight: 700;
+        max-width: 800px;
+        line-height: 61px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .heading-primary-sub-1 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+
+    .btn-email {
+        padding: 0.5rem 1.2rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        height: 2rem;
+        width: 156px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--primary-color);
+        color: #f4f4f4;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        outline: none;
+
+
+    }
+
+    .email {
+        width: 334px;
+        height: 2rem;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+    }
+
+    .logo-box {
+        padding: 0 20px;
+    }
+
+    .logo {
+        height: 82px;
+        width: 157px;
+
+    }
+
+    .btn-log {
+        font-size: 1rem;
+        padding: 12px 9px;
+        border-radius: 5%;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+
+
+    }
+}
+
+@media screen and (max-width:480px) {
+    .header {
+        height: 100vh;
+        min-width: 664px;
+        background-image: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(220, 220, 228, 0) 0%, rgba(10, 10, 10, 0.5270483193277311) 0%), url(../img/netflex1.jpg);
+        background-position: top;
+        background-size: cover;
+
+    }
+
+    .text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-1px, 38px);
+
+    }
+
+    .search-buttom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .heading-tritury {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-size: 0.5rem;
+        font-weight: 300px;
+        letter-spacing: 1px;
+        padding-bottom: 1rem;
+
+    }
+
+    .heading-primary-main {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-size: 24px;
+        font-weight: 400px;
+        max-width: 400px;
+        line-height: 37.5px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .heading-primary-sub-1 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-weight: 300px;
+        letter-spacing: 1px;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    .btn-email {
+        padding: 0.5rem 1.2rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        height: 32px;
+        width: 221px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-112px, 34px);
+        background: var(--primary-color);
+        color: #f4f4f4;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        outline: none;
+
+
+    }
+
+    .email {
+        width: 309px;
+        height: 2rem;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        transform: translate(152px, -1px);
+    }
+
+    .logo-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 80px;
+
+    }
+
+    .btn-log {
+        height: 10px;
+        width: auto;
+        background-color: #e50914;
+        font-size: 0.8rem;
+        line-height: normal;
+        color: white;
+        border-radius: 10%;
+        cursor: pointer;
+        padding: 10px 10px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+
+
+    }
+}
