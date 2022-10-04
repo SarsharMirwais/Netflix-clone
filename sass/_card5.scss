@@ -1,0 +1,355 @@
+.card-5 {
+    border-top: 8px solid rgba(69, 69, 69, 69);
+    height: 100vh;
+    width: auto;
+    background-color: black;
+
+}
+
+
+
+.text-box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.heading-4 {
+    color: #f4f4f4;
+    text-transform: capitalize;
+    font-size: 57px;
+    font-weight: 700;
+    max-width: 800px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 4px 0;
+}
+
+
+.button {
+    height: 50px;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.btn-full-1,
+.btn-full-2,
+.btn-full-3,
+.btn-full-4,
+.btn-full-5,
+.btn-full-6 {
+    border: 0;
+    font-weight: 400;
+    padding: 1.5em 2.2em 0.8em 1.2em;
+    width: 100%;
+    text-align: left;
+    background-color: rgba(69, 69, 69, 69);
+    color: #f4f4f4;
+    font-size: 1rem;
+}
+
+.plus-icon {
+
+    height: auto;
+    width: 3%;
+    z-index: 999;
+    display: flex;
+    color: #f4f4f4;
+
+}
+
+.searching {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    transform: translate(5px, 363px);
+
+
+}
+
+.heading-5 {
+    color: #f4f4f4;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    text-align: center;
+    transform: translate(5px, 348px);
+}
+
+.email-2 {
+    width: 644px;
+    height: 2.4rem;
+    font-size: 1rem;
+
+}
+
+.btn-email-2 {
+    background: var(--primary-color);
+    color: #f4f4f4;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 2.4rem;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.45);
+}
+
+
+@media only screen and (max-width:1200px) {
+
+    .card-5 {
+        height: 160vh;
+        padding: 50px;
+        min-width: 600px;
+    }
+
+    .text-box-1 {
+        height: 20vh;
+        width: 100%;
+        ;
+
+
+    }
+
+    .heading-4 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-size: 50px;
+        font-weight: 700;
+        max-width: 800px;
+        line-height: 74.5px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    .heading-5 {
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .button {
+        padding: -2rem;
+        width: 850px;
+    }
+
+    .btn-full-1,
+    .btn-full-2,
+    .btn-full-3,
+    .btn-full-4,
+    .btn-full-5,
+    .btn-full-6 {
+        padding: 1.5em 2.2em 0.8em 1.2em;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+
+    .email-2 {
+        width: 644px;
+        height: 2.4rem;
+        font-size: 1rem;
+
+    }
+
+    .btn-email-2 {
+        background: var(--primary-color);
+        color: #f4f4f4;
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        height: 2.4rem;
+        box-shadow: 0 5px 3px rgba(0, 0, 0, 0.45);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .heading-4 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-size: 40px;
+        font-weight: 700;
+        max-width: 800px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 4px 0;
+    }
+
+
+    .button {
+        height: 10px;
+        width: 652px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .btn-full-1,
+    .btn-full-2,
+    .btn-full-3,
+    .btn-full-4,
+    .btn-full-5,
+    .btn-full-6 {
+        border: 0;
+        font-weight: 400;
+        padding: 1.5em 2.2em 0.8em 1.2em;
+        width: 100%;
+        text-align: left;
+        background-color: rgba(69, 69, 69, 69);
+        color: #f4f4f4;
+        font-size: 1rem;
+    }
+
+    .searching {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        transform: translate(5px, 363px);
+
+
+    }
+
+    .heading-5 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        text-align: center;
+        transform: translate(5px, 356px);
+    }
+
+    .email-2 {
+        width: 516px;
+        height: 1.9rem;
+        font-size: 1rem;
+
+    }
+
+    .btn-email-2 {
+        background: var(--primary-color);
+        color: #f4f4f4;
+        font-size: 1.2rem;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        height: 2rem;
+        box-shadow: 0 5px 3px rgba(0, 0, 0, 0.45);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .card-5 {
+        overflow: hidden;
+        border-top: 8px solid rgba(69, 69, 69, 69);
+        height: 140vh;
+        min-width: 664px;
+        background-color: black;
+
+    }
+
+
+
+    .text-box-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .heading-4 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-size: 26px;
+        font-weight: 700;
+        max-width: 800px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+
+    .button {
+        height: 50px;
+        width: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .btn-full-1,
+    .btn-full-2,
+    .btn-full-3,
+    .btn-full-4,
+    .btn-full-5,
+    .btn-full-6 {
+        border: 0;
+        height: 37px;
+        font-weight: 400;
+        padding: 1em 2.2em 0.8em 1.2em;
+        width: 56%;
+        text-align: left;
+        background-color: rgba(69, 69, 69, 69);
+        color: #f4f4f4;
+        font-size: 1rem;
+    }
+
+    .plus-icon {
+
+        height: auto;
+        width: 3%;
+        z-index: 999;
+        display: flex;
+        color: #f4f4f4;
+
+    }
+
+    .searching {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(5px, 253px);
+
+
+    }
+
+    .heading-5 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-weight: 400px;
+        letter-spacing: 1px;
+        font-size: 0.9rem;
+        text-align: center;
+        transform: translate(5px, 222px);
+    }
+
+    .email-2 {
+        width: 380px;
+        height: 2rem;
+        font-size: 1rem;
+
+    }
+
+    .btn-email-2 {
+        background: var(--primary-color);
+        color: #f4f4f4;
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        height: 2rem;
+        width: 379px;
+        box-shadow: 0 5px 3px rgba(0, 0, 0, 0.45);
+    }
+}

@@ -1,0 +1,140 @@
+.card-4 {
+    border-top: 8px solid rgba(69, 69, 69, 69);
+    padding: 50px;
+    height: 70vh;
+    background-color: black;
+    min-width: 600px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.heading-2 {
+    color: #f4f4f4;
+    text-transform: capitalize;
+    text-align: left;
+
+
+}
+
+.heading-first-1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding-top: 0.5rem;
+    color: #f4f4f4;
+
+}
+
+.heading-second-1 {
+    color: #f4f4f4;
+    text-transform: capitalize;
+    font-size: 19.2px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.netflix-2 {
+    height: 100%;
+    width: auto;
+}
+
+@media only screen and (max-width:1200px) {
+    .netflix-2 {
+        height: 100%;
+        width: 58%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .heading-2 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        text-align: left;
+
+
+    }
+
+    .heading-first-1 {
+        text-transform: capitalize;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-top: 0.5rem;
+        color: #f4f4f4;
+
+    }
+
+    .heading-second-1 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .netflix-2 {
+        height: 100%;
+        width: 82%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .card-4 {
+        border-top: 8px solid rgba(69, 69, 69, 69);
+        height: 152vh;
+        background-color: black;
+        min-width: 664px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+
+    }
+
+
+    .heading-2 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        text-align: left;
+        transform: translate(10px, -79px);
+
+
+    }
+
+    .heading-first-1 {
+        text-transform: capitalize;
+        font-size: 27px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-top: 0.5rem;
+        color: #f4f4f4;
+
+    }
+
+    .heading-second-1 {
+        color: #f4f4f4;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 400px;
+        letter-spacing: 1px;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .netflix-2 {
+        height: 90%;
+        width: 100%;
+        transform: translate(10px, -48px);
+    }
+}

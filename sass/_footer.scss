@@ -1,0 +1,249 @@
+.footer {
+    overflow: hidden;
+    border-top: 8px solid rgba(69, 69, 69, 69);
+    padding: 50px;
+    height: 45vh;
+    background-color: black;
+    min-width: 600px;
+
+
+
+}
+
+.footer-divider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+    color: rgba(69, 69, 69, 69);
+    list-style-type: none;
+}
+
+.paragraph {}
+
+.top-paragraph {
+    color: rgba(69, 69, 69, 69);
+    text-align: left;
+    padding-bottom: -1%;
+    margin-bottom: -5rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+
+
+}
+
+.bottom-paragraph {
+    color: rgba(69, 69, 69, 69);
+    text-align: left;
+    padding-bottom: -1%;
+    margin-bottom: -5rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.footer-link {
+    width: 25%;
+    padding: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(69, 69, 69, 69);
+}
+
+
+
+
+@media only screen and (max-width:1200px) {
+    .footer {
+        border-top: 8px solid rgba(69, 69, 69, 69);
+        padding: 50px;
+        height: 90vh;
+        background-color: black;
+        min-width: 600px;
+
+
+
+    }
+
+    .paragraph {
+        padding: 1px;
+        transform: translate(0px, 30px);
+    }
+
+    .footer-divider {}
+
+    .footer-ul {
+        color: rgba(69, 69, 69, 69);
+        list-style-type: none;
+    }
+
+    .top-paragraph {
+        padding-bottom: -1%;
+        margin-bottom: -5rem;
+        font-size: 1.4rem;
+
+
+
+
+    }
+
+    .bottom-paragraph {
+        color: rgba(69, 69, 69, 69);
+        text-align: left;
+        font-size: 1rem;
+        text-transform: capitalize;
+
+    }
+
+    .footer-link {
+        margin: auto;
+        width: 25%;
+        padding: 30px;
+        margin: 30px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+
+
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        color: rgba(69, 69, 69, 69);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer {
+        overflow: hidden;
+        border-top: 8px solid rgba(69, 69, 69, 69);
+        padding: 50px;
+        height: 77vh;
+        background-color: black;
+        min-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .footer-divider {}
+
+    .footer-ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: rgba(69, 69, 69, 69);
+        list-style-type: none;
+    }
+
+    .paragraph {}
+
+    .top-paragraph {
+        color: rgba(69, 69, 69, 69);
+        text-align: left;
+        font-size: 1.4rem;
+        text-transform: capitalize;
+
+
+    }
+
+    .footer-link {
+        width: 25%;
+        padding: 30px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+
+
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        color: rgba(69, 69, 69, 69);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .footer {
+        border-top: 8px solid rgba(69, 69, 69, 69);
+        padding: 50px;
+        height: 64vh;
+        background-color: black;
+        min-width: 664px;
+
+
+
+    }
+
+    .footer-divider {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 2rem;
+        color: rgba(69, 69, 69, 69);
+        list-style-type: none;
+    }
+
+    .paragraph {}
+
+    .top-paragraph {
+        color: rgba(69, 69, 69, 69);
+        text-align: left;
+        padding-bottom: -1%;
+        margin-bottom: -5rem;
+        font-size: 1.4rem;
+        text-transform: capitalize;
+
+
+    }
+
+    .bottom-paragraph {
+        color: rgba(69, 69, 69, 69);
+        text-align: left;
+        padding-bottom: -1%;
+        margin-bottom: -5rem;
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+
+    .footer-link {
+        width: 25%;
+        padding: 30px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+
+
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        color: rgba(69, 69, 69, 69);
+    }
+}
