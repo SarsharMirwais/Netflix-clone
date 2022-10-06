@@ -1,20 +1,29 @@
 .card-2 {
     border-top: 8px solid rgba(69, 69, 69, 69);
-    padding: 50px;
     height: 70vh;
     background-color: black;
-    min-width: 600px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 950px) {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 150vh;
+    }
 
 }
 
 
 
 .mobile-pic {
-    height: 100%;
-    width: auto;
+    height: 70%;
+    width: 85%;
+
+    @media screen and (max-width: 600px) {
+        height: 50%;
+    }
 }
 
 .heading-1 {
@@ -23,6 +32,10 @@
     max-width: 800px;
     line-height: 74.5px;
     letter-spacing: 3px;
+
+    @media screen and (max-width: 950px) {
+        text-align: center;
+    }
 }
 
 .heading-m1 {
@@ -33,6 +46,11 @@
     padding-top: 0.5rem;
     padding-left: 1rem;
     color: #f4f4f4;
+
+    @media screen and (max-width: 900px) {
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 
 .heading-m2 {
@@ -40,135 +58,11 @@
     text-transform: capitalize;
     font-size: 19.2px;
     font-weight: 300;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     padding-top: 0.5rem;
     padding-left: 1rem;
-    padding-bottom: 1rem;
-}
 
-
-@media screen and (max-width:1200px) {
-    .mobile-pic {
-        height: 100%;
-        width: 58%;
-    }
-
-    .heading-1 {
-        font-size: 57px;
-        font-weight: 700;
-        max-width: 800px;
-        line-height: 74.5px;
-        letter-spacing: 3px;
-    }
-
-    .heading-m1 {
-        text-transform: capitalize;
-        font-size: 20px;
-        font-weight: 600;
-        letter-spacing: 3px;
-        padding-top: 1.5rem;
-        padding-left: 1rem;
-        color: #f4f4f4;
-    }
-
-    .heading-m2 {
-        color: #f4f4f4;
-        text-transform: capitalize;
-        font-size: 19.2px;
-        font-weight: 300;
-        letter-spacing: 3px;
-        padding-top: 0.5rem;
-        padding-left: 1rem;
-        padding-bottom: 1rem;
-    }
-}
-
-@media screen and (max-width:768px) {
-
-
-    .mobile-pic {
-        height: 100%;
-        width: 90%;
-    }
-
-    .heading-1 {
-        font-size: 57px;
-        font-weight: 700;
-        max-width: 800px;
-        line-height: 74.5px;
-        letter-spacing: 3px;
-    }
-
-    .heading-m1 {
-        text-transform: capitalize;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 31px;
-        letter-spacing: 1px;
-        color: #f4f4f4;
-    }
-
-    .heading-m2 {
-        color: #f4f4f4;
-        text-transform: capitalize;
-        font-size: 19.2px;
-        font-weight: 300;
-        line-height: 31px;
-        letter-spacing: 1px;
-        padding-top: 0.5rem;
-    }
-
-
-
-
-}
-
-@media screen and (max-width:480px) {
-    .card-2 {
-        border-top: 8px solid rgba(69, 69, 69, 69);
-        height: 124vh;
-        min-width: 664px;
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-
-    }
-
-
-
-    .mobile-pic {
-        height: 79%;
-        width: 85%;
-        transform: translate(10px, -71px)
-    }
-
-    .heading-1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        transform: translate(10px, -90px);
-    }
-
-    .heading-m1 {
-        text-transform: capitalize;
-        font-size: 22px;
-        font-weight: 400px;
-        letter-spacing: 1px;
-        padding-top: 0.5rem;
-        padding-left: 1rem;
-        color: #f4f4f4;
-    }
-
-    .heading-m2 {
-        color: #f4f4f4;
-        text-transform: capitalize;
-        font-size: 17px;
-        font-weight: 300;
-        letter-spacing: 1px;
-        padding-top: 0.5rem;
-        padding-left: 1rem;
-        padding-bottom: 1rem;
+    @media screen and (max-width: 900px) {
+        font-size: 15px;
     }
 }

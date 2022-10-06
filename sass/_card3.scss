@@ -3,118 +3,63 @@
     padding: 50px;
     height: 70vh;
     background-color: black;
-    min-width: 600px;
+    width: 100%;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+
+    @media screen and (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .img-video {
     display: flex;
-    flex-direction: column;
+    flex-grow: 1;
+    padding-right: 4rem;
+    justify-content: center;
+}
+
+.tv2 {
+    height: 30rem;
+    width: 35rem;
+    position: relative;
+    z-index: 99999999;
+
+    @media screen and (max-width: 1200px) {
+        height: 20rem;
+        width: 25rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        height: 13rem;
+        width: 18rem;
+    }
+
+
+
 
 }
 
-.device {
-    height: 100%;
-    width: 70%;
-    transform: translate(10px, 70px);
-    z-index: 99;
-}
+.card-video2 {
+    height: 19rem;
+    width: 22rem;
+    position: absolute;
 
-.video-1 {
-    height: 100%;
-    width: 43%;
-    transform: translate(7px, -228px);
-    z-index: 1;
-
-}
-
-@media screen and (max-width:1200px) {
-    .device {
-        height: 100%;
-        width: 70%;
-        transform: translate(10px, 70px);
-        z-index: 99;
+    @media screen and (max-width: 1200px) {
+        height: 14rem;
+        width: 16rem;
     }
 
-    .video-1 {
-        height: 100%;
-        width: 43%;
-        transform: translate(7px, -160px);
-        z-index: 1;
-
-    }
-}
-
-@media screen and (max-width:1024px) {
-    .device {
-        height: 100%;
-        width: 70%;
-        transform: translate(10px, 70px);
-        z-index: 99;
+    @media screen and (max-width: 500px) {
+        height: 9rem;
+        width: 11rem;
     }
 
-    .video-1 {
-        height: 100%;
-        width: 45%;
-        transform: translate(7px, -116px);
-        z-index: 1;
 
-    }
-}
 
-@media screen and (max-width:768px) {
-    .device {
-        height: 100%;
-        width: 70%;
-        transform: translate(10px, 70px);
-        z-index: 99;
-    }
-
-    .video-1 {
-        height: 100%;
-        width: 44%;
-        transform: translate(9px, -80px);
-        z-index: 1;
-
-    }
-}
-
-@media screen and (max-width:480px) {
-    .card-3 {
-        border-top: 8px solid rgba(69, 69, 69, 69);
-        padding: 50px;
-        height: 124vh;
-        background-color: black;
-        min-width: 664px;
-
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-        align-items: center;
-    }
-
-    .img-video {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .device {
-        height: 100%;
-        width: 70%;
-        transform: translate(10px, 70px);
-        z-index: 99;
-    }
-
-    .video-1 {
-        height: 100%;
-        width: 43%;
-        transform: translate(7px, -191px);
-        z-index: 1;
-
-    }
 }

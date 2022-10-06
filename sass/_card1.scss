@@ -1,20 +1,34 @@
 .card-1 {
     border-top: 8px solid rgba(69, 69, 69, 69);
-    padding: 50px;
     height: 70vh;
     background-color: black;
-    min-width: 600px;
+    width: 100%;
 
     display: flex;
+    flex-direction: row;
+    gap: 1rem;
     justify-content: space-between;
     align-items: center;
+    padding-left: 2rem;
+
+
+    @media screen and (max-width: 950px) {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
 }
 
 .heading {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     justify-content: center;
     align-items: left;
+
+    @media screen and (max-width: 950px) {
+        text-align: center;
+    }
 
 }
 
@@ -26,6 +40,19 @@
     padding-top: 0.5rem;
     padding-left: 1rem;
     color: #f4f4f4;
+
+
+    @media screen and (max-width: 950px) {
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 34px;
+    }
+
+    @media screen and (max-width: 550px) {
+        font-size: 34px;
+    }
 }
 
 .heading-second {
@@ -37,230 +64,54 @@
     padding-top: 0.5rem;
     padding-left: 1rem;
     padding-bottom: 1rem;
+
+    @media screen and (max-width: 950px) {
+        font-size: 15px;
+    }
 }
 
 .img-video {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.tv-img {
-    z-index: 99999;
+    flex-grow: 2;
 }
 
 .tv {
-    height: 100%;
-    width: 70%;
-    transform: translate(0px, 90px);
+    height: 26rem;
+    width: 35rem;
+    position: relative;
+    z-index: 99999999;
+    padding: auto;
+
+    @media screen and (max-width: 900px) {
+        height: 20rem;
+        width: 25rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        height: 12rem;
+        width: 15rem;
+    }
+
 
 
 }
 
-.video {
-    z-index: 1;
-}
 
-.video-3 {
-    height: 100%;
-    width: 75%;
-    transform: translateY(-179px);
-    ;
-
-}
+.card-video {
+    height: 30rem;
+    width: 30rem;
+    padding: auto;
+    position: absolute;
 
 
-@media screen and (max-width:1200px) {
-
-
-
-    .tv-img {
-        z-index: 99999;
+    @media screen and (max-width: 900px) {
+        height: 19.2rem;
+        width: 19rem;
     }
 
-    .tv {
-        height: 100%;
-        width: 60%;
-        transform: translate(121px, 71px);
-
-
+    @media screen and (max-width: 500px) {
+        height: 12rem;
+        width: 11rem;
     }
 
-    .video-3 {
-        height: 100%;
-        width: 59%;
-        transform: translate(138px, -110px);
-        margin-left: -45px;
-
-    }
-
-}
-
-@media screen and (max-width:1024px) {
-    .tv {
-        height: 100%;
-        width: 70%;
-        transform: translate(55px, 74px);
-
-
-    }
-
-    .video-3 {
-        height: 100%;
-        width: 58%;
-        transform: translate(138px, -110px);
-        margin-left: -45px;
-
-    }
-}
-
-@media screen and (max-width:768px) {
-    .card-1 {
-        border-top: 8px solid rgba(69, 69, 69, 69);
-        padding: 50px;
-        height: 70vh;
-        background-color: black;
-        min-width: 600px;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .heading {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-
-    }
-
-    .heading-first {
-        text-transform: capitalize;
-        font-size: 27px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        color: #f4f4f4;
-
-    }
-
-    .heading-second {
-        color: #f4f4f4;
-        text-transform: capitalize;
-        font-size: 19.2px;
-        font-weight: 300;
-        letter-spacing: 3px;
-        padding-top: 0.5rem;
-        padding-left: 1rem;
-        padding-bottom: 1rem;
-    }
-
-    .img-video {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .tv-img {
-        z-index: 99999;
-    }
-
-    .tv {
-        height: 100%;
-        width: 90%;
-        transform: translate(0px, 62px);
-
-
-    }
-
-    .video {
-        z-index: 1;
-    }
-
-    .video-3 {
-        height: 100%;
-        width: 63%;
-        transform: translate(88px, -117px);
-
-    }
-}
-
-@media screen and (max-width:480px) {
-    .card-1 {
-        border-top: 8px solid rgba(69, 69, 69, 69);
-        height: 124vh;
-        min-width: 664px;
-        background-color: black;
-
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .heading {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-        transform: translate(10px, 144px);
-
-    }
-
-    .heading-first {
-        text-transform: capitalize;
-        font-size: 22px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        padding-top: 0.5rem;
-        padding-left: 1rem;
-        color: #f4f4f4;
-    }
-
-    .heading-second {
-        color: #f4f4f4;
-        text-transform: capitalize;
-        font-size: 19.2px;
-        font-weight: 300;
-        letter-spacing: 1px;
-        padding-top: 0.5rem;
-        padding-left: 1rem;
-        padding-bottom: 1rem;
-    }
-
-    .img-video {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .tv-img {
-        z-index: 99999;
-    }
-
-    .tv {
-        height: 85%;
-        width: 86%;
-        transform: translate(0px, 128px);
-
-
-    }
-
-    .video {
-        z-index: 1;
-    }
-
-    .video-3 {
-        height: 100%;
-        width: 75%;
-        transform: translate(40px, -189px);
-
-    }
 }

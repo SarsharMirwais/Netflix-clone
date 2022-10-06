@@ -1,9 +1,13 @@
-.header {
+.card0 {
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(220, 220, 228, 0) 0%, rgba(10, 10, 10, 0.5270483193277311) 0%), url(../img/netflex1.jpg);
     background-position: top;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
 
 }
 
@@ -12,6 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 5rem;
 
 }
 
@@ -27,6 +32,7 @@
     text-transform: capitalize;
     font-size: 2rem;
     font-weight: 300px;
+    text-align: center;
     letter-spacing: 3px;
     padding-top: 5rem;
     padding-bottom: 1rem;
@@ -68,12 +74,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--primary-color);
-    color: #f4f4f4;
-    border: none;
-    cursor: pointer;
-    border-radius: 2px;
-    outline: none;
+
 
 
 }
@@ -86,7 +87,22 @@
     padding-left: 0.5rem;
 }
 
-.logo-box {
+.get {
+    height: 3rem;
+    width: 200px;
+    font-size: 1rem;
+    background: var(--primary-color);
+    color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,7 +133,7 @@
 }
 
 @media screen and (max-width:1200px) {
-    .header {
+    .card0 {
         height: 107vh;
         width: 100%;
         background-image: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(220, 220, 228, 0) 0%, rgba(10, 10, 10, 0.5270483193277311) 0%), url(../img/netflex1.jpg);
@@ -138,7 +154,6 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-left: -10rem;
     }
 
     .heading-tritury {
@@ -207,7 +222,7 @@
         margin-left: 5rem;
     }
 
-    .logo-box {
+    .header {
         padding: 0 20px;
     }
 
@@ -229,8 +244,38 @@
     }
 }
 
+@media screen and (max-width:900px) {
+    .get {
+
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--primary-color);
+        color: #f4f4f4;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        margin-right: 0.5rem;
+        outline: none;
+
+
+    }
+
+    .email {
+
+        width: 454px;
+        height: 40px;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+    }
+}
+
 @media screen and (max-width:768px) {
-    .header {
+    .card0 {
         height: 107vh;
         width: 100%;
         background-image: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(220, 220, 228, 0) 0%, rgba(10, 10, 10, 0.5270483193277311) 0%), url(../img/netflex1.jpg);
@@ -288,8 +333,8 @@
     }
 
 
-    .btn-email {
-        padding: 0.5rem 1.2rem;
+    .get {
+        padding: 0.5rem 0.2rem;
         font-size: 1rem;
         text-transform: uppercase;
         height: 2rem;
@@ -308,13 +353,14 @@
     }
 
     .email {
-        width: 334px;
+        width: 27%;
         height: 2rem;
         font-size: 1rem;
         padding-left: 0.5rem;
+        margin-left: 10rem;
     }
 
-    .logo-box {
+    .header {
         padding: 0 20px;
     }
 
@@ -337,21 +383,13 @@
 }
 
 @media screen and (max-width:480px) {
-    .header {
-        height: 100vh;
-        min-width: 664px;
-        background-image: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(220, 220, 228, 0) 0%, rgba(10, 10, 10, 0.5270483193277311) 0%), url(../img/netflex1.jpg);
-        background-position: top;
-        background-size: cover;
 
-    }
 
     .text-box {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transform: translate(-1px, 38px);
 
     }
 
@@ -395,16 +433,24 @@
     }
 
 
-    .btn-email {
-        padding: 0.5rem 1.2rem;
-        font-size: 1rem;
+    .search-buttom {
+        display: flex;
+        padding-left: 4rem;
+        padding-right: 2rem;
+        justify-content: center;
+
+    }
+
+    .get {
+        padding: 0.5rem 0.2rem;
+        font-size: 0.7rem;
         text-transform: uppercase;
         height: 32px;
-        width: 221px;
+        width: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: translate(-112px, 34px);
+
         background: var(--primary-color);
         color: #f4f4f4;
         border: none;
@@ -416,14 +462,13 @@
     }
 
     .email {
-        width: 309px;
+        width: auto;
         height: 2rem;
         font-size: 1rem;
         padding-left: 0.5rem;
-        transform: translate(152px, -1px);
     }
 
-    .logo-box {
+    .header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -452,4 +497,41 @@
 
 
     }
+}
+
+@media screen and (max-width: 360px) {
+
+    .search-buttom {
+        display: none;
+
+    }
+
+    .get {
+        padding: 0.5rem 0.1rem;
+        font-size: 0.5rem;
+        text-transform: uppercase;
+        height: 32px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: var(--primary-color);
+        color: #f4f4f4;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        outline: none;
+
+
+    }
+
+    .email {
+        width: auto;
+        height: 2rem;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+    }
+
+
 }

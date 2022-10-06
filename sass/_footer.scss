@@ -4,7 +4,7 @@
     padding: 50px;
     height: 45vh;
     background-color: black;
-    min-width: 600px;
+    width: 100%;
 
 
 
@@ -70,10 +70,9 @@ a {
 @media only screen and (max-width:1200px) {
     .footer {
         border-top: 8px solid rgba(69, 69, 69, 69);
-        padding: 50px;
         height: 90vh;
         background-color: black;
-        min-width: 600px;
+
 
 
 
@@ -112,7 +111,6 @@ a {
     .footer-link {
         margin: auto;
         width: 25%;
-        padding: 30px;
         margin: 30px;
         text-decoration: none;
         list-style-type: none;
@@ -131,10 +129,9 @@ a {
     .footer {
         overflow: hidden;
         border-top: 8px solid rgba(69, 69, 69, 69);
-        padding: 50px;
-        height: 77vh;
+        height: auto;
         background-color: black;
-        min-width: 600px;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -149,6 +146,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
         color: rgba(69, 69, 69, 69);
         list-style-type: none;
@@ -167,7 +165,6 @@ a {
 
     .footer-link {
         width: 25%;
-        padding: 30px;
         text-decoration: none;
         list-style-type: none;
     }
@@ -184,10 +181,9 @@ a {
 @media screen and (max-width:480px) {
     .footer {
         border-top: 8px solid rgba(69, 69, 69, 69);
-        padding: 50px;
         height: 64vh;
         background-color: black;
-        min-width: 664px;
+
 
 
 
@@ -234,7 +230,6 @@ a {
 
     .footer-link {
         width: 25%;
-        padding: 30px;
         text-decoration: none;
         list-style-type: none;
     }
